@@ -1,0 +1,6 @@
+{
+  "name": "TRUSTWALL",
+  "description": "Trust-Aware Adaptive Web Application Firewall with sample quarantine, ADWIN drift detection, validation gating, and model rollback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

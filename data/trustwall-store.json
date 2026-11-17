@@ -1,0 +1,58 @@
+{
+  "nextTrafficId": 1,
+  "nextAlertId": 1,
+  "nextAuditId": 1,
+  "nextModelId": 2,
+  "nextDriftId": 1,
+  "trafficLogs": [],
+  "alerts": [],
+  "learningSamples": [],
+  "auditEvents": [
+    {
+      "id": 1,
+      "actor": "system",
+      "action": "MODEL_INIT",
+      "entity_type": "model_version",
+      "entity_id": "model-v1",
+      "timestamp": "2026-11-17T08:13:22.752Z",
+      "details": {
+        "dataset": "1,200 synthetic samples (60/20/20 split, seed=42)",
+        "validation_metrics": {
+          "precision": 1,
+          "recall": 1,
+          "f1": 1,
+          "fpr": 0,
+          "confusion_matrix": {
+            "tn": 155,
+            "fp": 0,
+            "fn": 0,
+            "tp": 85
+          }
+        }
+      }
+    }
+  ],
+  "modelVersions": [
+    {
+      "id": 1,
+      "version": "model-v1",
+      "status": "ACTIVE",
+      "created_at": "2026-11-17T08:13:22.752Z",
+      "metrics": {
+        "precision": 1,
+        "recall": 1,
+        "f1": 1,
+        "fpr": 0,
+        "confusion_matrix": {
+          "tn": 155,
+          "fp": 0,
+          "fn": 0,
+          "tp": 85
+        }
+      },
+      "parent_version": null,
+      "approved_samples_used": 0
+    }
+  ],
+  "driftEvents": []
+}
